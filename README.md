@@ -1,6 +1,12 @@
 # farowei-front
 FAROWEI Hackathon Predictiviz Front Project
 
+INSTALL :
+    npm                 => npm install
+    boostrap            => npm install bootstrap --save
+                        => npm install --save reactstrap react react-dom
+    router              => npm install react-router-dom          => npm install react-router-dom
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
