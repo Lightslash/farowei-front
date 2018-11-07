@@ -1,0 +1,27 @@
+.barre {
+    background: rgb(67, 141, 253);
+    color: #fff;
+    position: relative;  
+    padding: 10px;
+    /* optionnel */
+    display: inline-block;
+    margin: 11px;
+  }
+  
+  .barre:before {
+    content: " ";
+    background: rgb(67, 141, 253);
+    position: absolute;
+    top:0;
+    left:-10px;
+    right:-10px;
+    bottom:0;
+    z-index: -1;
+    transform: skewX(-15deg);
+    
+  }
+
+  .barre:hover{
+      font-size: 1.2em;
+      transition : 1s;
+  }
