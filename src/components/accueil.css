@@ -3,6 +3,7 @@
     background-size: cover;
     box-shadow: 0 10px 15px 5px black;
     height: 500px;
+    margin-bottom: 7%;
 }
 .divHeaderAccueil {
     background-color: rgba(0, 0, 0, 0.8);
