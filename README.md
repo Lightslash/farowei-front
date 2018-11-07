@@ -8,6 +8,7 @@ INSTALL :
     router              => npm install react-router-dom          
                         => npm install react-router-dom
     Chart.js            => npm install chart.js --save
+    npm i react-reveal --save
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
