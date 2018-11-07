@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
-import { Container } from 'reactstrap';
+import { Container, Row, Col } from 'reactstrap';
 import './App.css';
 import Accueil from './components/Accueil';
 import ContainerCriteres from './components/ContainerCriteres';
+import ContainerGraph from './components/ContainerGraph';
 
 class App extends Component {
   render() {
@@ -10,7 +11,14 @@ class App extends Component {
       <div className="App">
         <Accueil />
         <Container fluid>
-          <ContainerCriteres />
+          <Row>
+              <Col md='3'>
+                <ContainerCriteres />
+              </Col>
+              <Col md='9'>
+                <ContainerGraph />
+              </Col>
+          </Row>
         </Container>
       </div>
     );
