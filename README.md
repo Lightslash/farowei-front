@@ -7,7 +7,7 @@ INSTALL :
                         => npm install --save reactstrap react react-dom
     router              => npm install react-router-dom
                         => npm install react-router-dom
-    csv reader          => npm i react-csv-reader
+    csv to array        => npm i csv-to-array
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
